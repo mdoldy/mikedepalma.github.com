@@ -17,12 +17,12 @@ topbar:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : JB
+title : MD
 author :
-  name : Jade Dominguez
-  email : plusjade@gmail.com
-  github : plusjade
-  twitter : plusjade
+  name : Mike DePalma
+  email : mikedepalma@gmail.com
+  github : mikedepalma
+  twitter : mikedepalma
   feedburner : nil
 
 # The production_url is only used when full-domain names are needed
@@ -33,7 +33,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://jekyllbootstrap.com
+production_url : http://mikedepalma.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -74,7 +74,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : mikedepalma
     livefyre :
       site_id : 123
     intensedebate :
@@ -89,7 +89,7 @@ JB :
   analytics :
     provider : custom
     google : 
-        tracking_id : 'UA-635329-12'
+        tracking_id : 'UA-10402639-1'
     getclicky :
       site_id : 
 

@@ -12,8 +12,8 @@ clicky_site_ids.push(66527697);
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-635329-12']);
-  _gaq.push(['_setDomainName', 'jekyllbootstrap.com']);
+  _gaq.push(['_setAccount', 'UA-10402639-1']);
+  _gaq.push(['_setDomainName', 'mikedepalma.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
