@@ -2476,6 +2476,14 @@ blockquote .small,blockquote footer,blockquote small {
     color: #777
 }
 
+q::before {
+  display:none;  
+}
+
+q::after {
+  display:none;
+}
+
 blockquote .small:before,blockquote footer:before,blockquote small:before {
     content: '\2014 \00A0'
 }
@@ -2492,7 +2500,9 @@ blockquote .small:before,blockquote footer:before,blockquote small:before {
     content: ''
 }
 
-
+.blockquote-reverse .small:after,.blockquote-reverse footer:after,.blockquote-reverse small:after,blockquote.pull-right .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after {
+    content: '\00A0 \2014'
+}
 
 address {
     margin-bottom: 20px;
@@ -5174,7 +5184,9 @@ blockquote .small,blockquote footer,blockquote small {
     color: #777
 }
 
-
+blockquote .small:before,blockquote footer:before,blockquote small:before {
+    content: '\2014 \00A0'
+}
 
 .blockquote-reverse,blockquote.pull-right {
     padding-right: 15px;
@@ -5188,7 +5200,9 @@ blockquote .small,blockquote footer,blockquote small {
     content: ''
 }
 
-
+.blockquote-reverse .small:after,.blockquote-reverse footer:after,.blockquote-reverse small:after,blockquote.pull-right .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after {
+    content: '\00A0 \2014'
+}
 
 address {
     margin-bottom: 20px;
