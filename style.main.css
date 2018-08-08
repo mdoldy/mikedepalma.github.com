@@ -2477,7 +2477,7 @@ blockquote .small,blockquote footer,blockquote small {
 }
 
 q::before {
-  display:none;  
+  display:none;
 }
 
 q::after {
@@ -2582,13 +2582,18 @@ a:active,a:focus {
     text-shadow: 1px 1px #444
 }
 
-.blueflame,.blueflame:hover,.glyphicon-fire {
+.blueflame,.blueflame:hover,.glyphicon-fire,.glyphicon-star {
     color: #00bff3
 }
 
 .glyphicon-fire {
     text-shadow: 0 1px #000
 }
+
+.glyphicon-star {
+    text-shadow: 0 1px #000
+}
+
 
 .no-wrap {
     white-space: nowrap
@@ -3140,6 +3145,11 @@ a:active,a:focus {
 .glyphicon-fire:before {
     content: "\e104"
 }
+
+.glyphicon-star:before {
+    content: "\e104"
+}
+
 
 .glyphicon-eye-open:before {
     content: "\e105"
@@ -5273,11 +5283,11 @@ a:active,a:focus {
     text-shadow: 1px 1px #444
 }
 
-.blueflame,.blueflame:hover,.glyphicon-fire {
+.blueflame,.blueflame:hover,.glyphicon-fire.glyphicon-star {
     color: #00bff3
 }
 
-.glyphicon-fire {
+.glyphicon-fire,.glyphicon-star {
     text-shadow: 0 1px #000
 }
 
