@@ -2515,8 +2515,8 @@ body,html {
 }
 
 body {
-    background-image: -webkit-radial-gradient(circle,#444,#111);
-    background-image: radial-gradient(circle,#444,#111);
+    background-image: -webkit-radial-gradient(circle,##67B26F,##4ca2cd);
+    background-image: radial-gradient(circle,#67B26F,##4ca2cd);
     background-repeat: no-repeat;
     color: #eee;
     text-shadow: 0 1px #000
