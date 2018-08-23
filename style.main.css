@@ -71,6 +71,115 @@
     color: #000
 }
 
+body.acuity-modal-visible{
+    overflow:hidden
+}
+.acuity-embed-modal{
+    display:block!important;
+    position:fixed;
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,.6);
+    z-index:-10;
+    opacity:0;
+    -webkit-transition:opacity .2s,z-index 0s .2s;
+    transition:opacity .2s,z-index 0s .2s;
+    text-align:center;
+    overflow:hidden;
+    overflow-y:auto;
+    white-space:nowrap;
+    -webkit-overflow-scrolling:touch;
+    visibility:hidden
+}
+.acuity-embed-modal iframe{
+    visibility:visible!important;
+    opacity:1!important;
+    margin:0
+}
+.acuity-modal .acuity-embed-modal>*{
+    display:inline-block;
+    white-space:normal;
+    vertical-align:middle;
+    text-align:left
+}
+.acuity-modal .acuity-embed-modal:before{
+    display:inline-block;
+    overflow:hidden;
+    width:0;
+    height:100%;
+    vertical-align:middle;
+    content:""
+}
+.acuity-modal.acuity-modal-visible .acuity-embed-modal{
+    visibility:visible;
+    z-index:20001;
+    opacity:1;
+    -webkit-transition:opacity .2s;
+    transition:opacity .2s
+}
+.acuity-modal.acuity-modal-visible .acuity-modal-inner{
+    z-index:1;
+    opacity:1;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:opacity .2s,-webkit-transform .2s;
+    transition:opacity .2s,-webkit-transform .2s;
+    transition:opacity .2s,transform .2s;
+    transition:opacity .2s,transform .2s,-webkit-transform .2s
+}
+.acuity-modal-inner{
+    padding:26px 6.5px 6.5px;
+    position:relative;
+    max-width:98%;
+    max-height:98%;
+    overflow:hidden;
+    overflow-y:auto;
+    background:#fff;
+    z-index:-1;
+    opacity:0;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    -webkit-transition:opacity .2s,z-index 0s .2s,-webkit-transform .2s;
+    transition:opacity .2s,z-index 0s .2s,-webkit-transform .2s;
+    transition:opacity .2s,transform .2s,z-index 0s .2s;
+    transition:opacity .2s,transform .2s,z-index 0s .2s,-webkit-transform .2s;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+.acuity-modal-content{
+    -webkit-overflow-scrolling:touch;
+    overflow:auto;
+    line-height:22px;
+    font-size:15px;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+.acuity-modal-close{
+    position:absolute;
+    z-index:2;
+    right:0;
+    top:0;
+    height:28px;
+    width:28px;
+    line-height:28px;
+    cursor:pointer;
+    text-align:center;
+    color:#5fb8b9;
+    font-size:28px;
+    font-weight:700;
+    background:0 0;
+    border:0;
+    padding:0
+}
+
+.acuity-modal-close{
+    color:#61b7b8 !important;
+}
+
+
 .glyphicon {
     position: relative;
     display: inline-block;
