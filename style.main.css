@@ -39,6 +39,7 @@
   background-color: #fff;
   display: inline-block;
   font-size: 15px;
+  font-weight: 300;
   box-sizing: border-box;
   background-attachment: scroll;
   background-clip: border-box;
@@ -63,6 +64,12 @@
   text-shadow: none;
 }
 
+.button:hover {
+    color: #fff
+}
+.button-white:hover {
+    color: #000
+}
 
 .glyphicon {
     position: relative;
@@ -2369,6 +2376,7 @@ p {
 a.text-primary:hover {
     color: #286090
 }
+
 
 .text-success {
     color: #3c763d
