@@ -4,8 +4,10 @@
     src: url(../fonts/glyphicons/e92edce0.glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons/48e4dcae.glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons/5eabbeda.glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons/db3c1a8b.glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons/89889688.glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
-.logo {
-  width: 400px;
+img.logo {
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
 .button {
