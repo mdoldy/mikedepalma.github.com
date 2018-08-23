@@ -4,6 +4,66 @@
     src: url(../fonts/glyphicons/e92edce0.glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons/48e4dcae.glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons/5eabbeda.glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons/db3c1a8b.glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons/89889688.glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
+.logo {
+  width: 400px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 15px;
+  box-sizing:border-box;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #00bff3;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  border-color: white;
+  border-radius: 3px;
+  border-width: 0px;
+  margin: 0;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  color: #fff;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  font-family: Montserrat, sans-serif;
+  text-shadow:none;
+
+}
+.button-white {
+  background-color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  border-color: white;
+  border-radius: 3px;
+  border-width: 0px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  color: #000;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  font-family: Montserrat, sans-serif;
+  text-shadow: none;
+}
+
+
 .glyphicon {
     position: relative;
     display: inline-block;
